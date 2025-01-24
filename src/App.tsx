@@ -239,36 +239,36 @@ function App() {
             </motion.div>
 
             <div className="mt-20 flex flex-col lg:flex-row gap-20">
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-                className="flex-1"
-              >
-                <div className="space-y-8">
-                  <div className="flex items-center gap-6">
-                    <div className="bg-violet-500/20 p-4 rounded-2xl">
-                      <Mail className="w-8 h-8 text-violet-500" />
-                    </div>
-                    <div>
-                      <h3 className="text-white text-xl font-bold">Email</h3>
-                      <p className="text-[#dfd9ff] mt-1">haroonbaig20132013@gmail.com</p>
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex items-center gap-6">
-                    <div className="bg-violet-500/20 p-4 rounded-2xl">
-                      <MapPin className="w-8 h-8 text-violet-500"/>
-                    </div>
-                    <div>
-                    <div>
-                      <h3 className="text-white text-xl font-bold">Location</h3>
-                      <p className="text-[#dfd9ff] mt-1">Karachi, Pakistan</p>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
+            <motion.div
+  initial={{ opacity: 0, x: -20 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+  className="flex-1"
+>
+  <div className="space-y-8">
+    <div className="flex items-center gap-6">
+      <div className="bg-violet-500/20 p-4 rounded-2xl">
+        <Mail className="w-8 h-8 text-violet-500" />
+      </div>
+      <div>
+        <h3 className="text-white text-xl font-bold">Email</h3>
+        <p className="text-[#dfd9ff] mt-1">haroonbaig20132013@gmail.com</p>
+      </div>
+    </div>
+
+    <div className="flex items-center gap-6">
+      <div className="bg-violet-500/20 p-4 rounded-2xl">
+        <MapPin className="w-8 h-8 text-violet-500" />
+      </div>
+      <div>
+        <h3 className="text-white text-xl font-bold">Location</h3>
+        <p className="text-[#dfd9ff] mt-1">Karachi, Pakistan</p>
+      </div>
+    </div>
+  </div>
+</motion.div>
+
 
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
