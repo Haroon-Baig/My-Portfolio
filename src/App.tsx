@@ -259,7 +259,7 @@ function App() {
                   </div>
                   <div className="flex items-center gap-6">
                     <div className="bg-violet-500/20 p-4 rounded-2xl">
-                      <MapPin className="w-8 h-8 text-violet-500" />
+                      <MapPin className="w-8 h-8 text-violet-500"/>
                     </div>
                     <div>
                       <h3 className="text-white text-xl font-bold">Location</h3>
