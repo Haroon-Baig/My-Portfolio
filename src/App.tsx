@@ -270,56 +270,52 @@ function App() {
 </motion.div>
 
 
-              <motion.div
-                initial={{ opacity: 0, x: 20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-                className="flex-1"
-              >
-                <form className="space-y-6">
-                  <div>
-                    <label htmlFor="name" className="block text-white font-medium mb-2">Name</label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="w-full px-4 py-3 rounded-lg bg-violet-500/10 border border-violet-500/20 text-white focus:border-violet-500 focus:ring-2 focus:ring-violet-500/20 transition-colors"
-                      placeholder="Your name"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-white font-medium mb-2">Email</label>
-                    <input
-                      type="email"
-                      id="email"
-                      className="w-full px-4 py-3 rounded-lg bg-violet-500/10 border border-violet-500/20 text-white focus:border-violet-500 focus:ring-2 focus:ring-violet-500/20 transition-colors"
-                      placeholder="your@email.com"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="message" className="block text-white font-medium mb-2">Message</label>
-                    <textarea
-                      id="message"
-                      rows={6}
-                      className="w-full px-4 py-3 rounded-lg bg-violet-500/10 border border-violet-500/20 text-white focus:border-violet-500 focus:ring-2 focus:ring-violet-500/20 transition-colors"
-                      placeholder="Your message"
-                    ></textarea>
-                  </div>
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    type="submit"
-                    className="w-full py-3 px-6 bg-violet-500 text-white font-medium rounded-lg hover:bg-violet-600 transition-colors"
-                  >
-                    Send Message
-                  </motion.button>
-                </form>
-              </motion.div>
-            </div>
-          </div>
-        </section>
-      </div>
+<motion.div
+  initial={{ opacity: 0, x: 20 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+  className="flex-1"
+>
+  <form className="space-y-6">
+    <div>
+      <label htmlFor="name" className="block text-white font-medium mb-2">Name</label>
+      <input
+        type="text"
+        id="name"
+        className="w-full px-4 py-3 rounded-lg bg-violet-500/10 border border-violet-500/20 text-white focus:border-violet-500 focus:ring-2 focus:ring-violet-500/20 transition-colors"
+        placeholder="Your name"
+      />
     </div>
+    <div>
+      <label htmlFor="email" className="block text-white font-medium mb-2">Email</label>
+      <input
+        type="email"
+        id="email"
+        className="w-full px-4 py-3 rounded-lg bg-violet-500/10 border border-violet-500/20 text-white focus:border-violet-500 focus:ring-2 focus:ring-violet-500/20 transition-colors"
+        placeholder="your@email.com"
+      />
+    </div>
+    <div>
+      <label htmlFor="message" className="block text-white font-medium mb-2">Message</label>
+      <textarea
+        id="message"
+        rows={6}
+        className="w-full px-4 py-3 rounded-lg bg-violet-500/10 border border-violet-500/20 text-white focus:border-violet-500 focus:ring-2 focus:ring-violet-500/20 transition-colors"
+        placeholder="Your message"
+      ></textarea>
+    </div>
+    <motion.button
+      whileHover={{ scale: 1.02 }}
+      whileTap={{ scale: 0.98 }}
+      type="submit"
+      className="w-full py-3 px-6 bg-violet-500 text-white font-medium rounded-lg hover:bg-violet-600 transition-colors"
+    >
+      Send Message
+    </motion.button>
+  </form>
+</motion.div>
+
   );
 }
 
