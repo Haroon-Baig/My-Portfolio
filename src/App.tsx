@@ -262,6 +262,7 @@ function App() {
                       <MapPin className="w-8 h-8 text-violet-500"/>
                     </div>
                     <div>
+                    <div>
                       <h3 className="text-white text-xl font-bold">Location</h3>
                       <p className="text-[#dfd9ff] mt-1">Karachi, Pakistan</p>
                     </div>
