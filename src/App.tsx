@@ -318,6 +318,7 @@ function App() {
 </motion.div>
 
   );
-}
+
 
 export default App;
+</div>
