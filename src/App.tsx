@@ -93,6 +93,8 @@ function App() {
                 scalable, and user-friendly solutions that solve real-world problems.
               </p>
             </motion.div>
+            </div> {/* Ensure this div closure */}
+         </section>
 
             <div className="mt-20 flex flex-wrap gap-10">
               {[
