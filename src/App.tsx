@@ -87,7 +87,7 @@ function App() {
         Overview.
       </h2>
       <p className="mt-4 text-[#dfd9ff] text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled frontend developer with experience in Stunning Webseites. 
+        I'm a skilled frontend developer with experience in Stunning Websites. 
         I specialize in frameworks like React, and have expertise in Tailwind CSS, Bootstrap, 
         and jQuery. I'm a quick learner and collaborate closely with clients to create efficient, 
         scalable, and user-friendly solutions that solve real-world problems.
